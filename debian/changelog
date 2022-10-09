@@ -1,0 +1,590 @@
+kmag (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:17:15 +0900
+
+kmag (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Borrow minimal upstream signing key from k3b.
+  * Drop Kubuntu from maintainer name.
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 27 Apr 2021 18:07:52 +0900
+
+kmag (4:20.12.0-1) unstable; urgency=medium
+
+  * New upstream release (20.12.0).
+  * Refresh copyright information.
+  * Bump Standards-Version to 4.5.1, no change required.
+  * Refresh upstream metadata.
+  * Update project homepage.
+  * Removed Eshat Cakar, Maximiliano Curia, Modestas Vainius from the
+    uploaders, thanks for your work on the package!
+  * Add myself to the uploaders.
+  * Build with hardening=+all build hardening flag.
+  * Borrow minimal upstream signing key from k3b.
+  * Drop kde-l10n migration rules, not needed anymore after 2 stable releases.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 24 Dec 2020 08:08:22 +0100
+
+kmag (4:20.04.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - manually force the generation of the substvars for the kde-l10n breaks
+  * Bump the debhelper compatibility to 13:
+    - switch the debhelper build dependency to debhelper-compat 13
+    - remove debian/compat
+  * Add Rules-Requires-Root: no.
+  * Bump Standards-Version to 4.5.0, no changes required.
+  * Do not ship the upstream README as docs, as that file is basically useless.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 03 Aug 2020 08:29:44 +0200
+
+kmag (4:19.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update watch file to the new release-service location.
+  * Drop the migration from kmag-dbg, no more needed after two Debian stable
+    releases.
+  * Add the configuration for the CI on salsa.
+  * Update the build dependencies according to the upstream build system:
+    - bump cmake to 3.0
+    - bump Qt to 5.9.0
+    - bump KF packages to 5.46.0
+    - bump libqaccessibilityclient-qt5-dev to 0.4
+    - explicitly add gettext
+  * Bump Standards-Version to 4.4.1, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 05 Jan 2020 14:16:32 +0100
+
+kmag (4:18.04.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.04.1).
+  * Update Vcs links to salsa.
+  * Use secure copyright format uri.
+  * Bump Standards-Version to 4.1.4 (No changes needed).
+  * Bump debhelper build-dep and compat to 11.
+  * Update copyright file for new upstream.
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Add the libqaccessibilityclient-qt5-dev build dependency, to enable
+    accessibility support.
+  * Bump Standards-Version to 4.2.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 03 Aug 2018 07:09:17 +0200
+
+kmag (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (17.08.1):
+    - switches to Qt5/KF5 (Closes: #874974)
+  * Bump Standards-Version to 4.1.0.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Add breaks/replaces against the kde-l10n packages
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Bump Standards-Version to 4.1.2, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 09 Dec 2017 09:18:58 +0100
+
+kmag (4:17.08.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 05 Sep 2017 14:01:33 +0000
+
+kmag (4:17.08.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 23 Aug 2017 10:50:01 +0000
+
+kmag (4:16.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Wrap too long changelog line in version 4:14.12.2-2.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove kmag.install, no more used now
+  * Remove not-installed file, obsolete now.
+  * Do not ship TODO as documentation, since it is useless for users.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 23 Aug 2016 22:42:40 +0200
+
+kmag (4:14.12.2-2) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer"
+    replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 20:21:00 +0200
+
+kmag (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 Feb 2015 11:13:11 +0100
+
+kmag (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 07:11:24 -0800
+
+kmag (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+  * Add optional depend libqaccessibilityclient-dev.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 15:36:27 +0100
+
+kmag (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 02 Dec 2014 21:24:03 -0800
+
+kmag (4:14.11.95-0ubuntu1) vivid; urgency=medium
+
+  * Initial release for KDE applications 14.12 series
+   - Change maintainer to Debian/Kubuntu
+   - Fix Watch file applications locations
+   - Fix VCS for new kde-applications location
+  * Debian merge, no remaining changes.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 26 Nov 2014 13:24:48 +0000
+
+kmag (4:4.14.2-1) unstable; urgency=medium
+
+  * New upstream release (4.14.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 20 Oct 2014 17:13:15 +0200
+
+kmag (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 05:32:17 -0700
+
+kmag (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+  * Add new dependency to libqaccessibilityclient-dev
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:19:40 +0200
+
+kmag (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 19:47:28 +0200
+
+kmag (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:12:54 +0200
+
+kmag (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:54:10 +0200
+
+kmag (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:22:06 +0200
+
+kmag (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:11:01 +0200
+
+kmag (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 12:01:53 +0100
+
+kmag (4:4.13.1-1ubuntu1) utopic; urgency=medium
+
+  * Merge with debian, no remaining changes
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 16 Jun 2014 19:18:51 +0200
+
+kmag (4:4.13.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update install file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 17 May 2014 22:24:51 +0200
+
+kmag (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:06:46 +0100
+
+kmag (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:30:33 +0200
+
+kmag (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:32:35 +0100
+
+kmag (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 11:02:38 +0000
+
+kmag (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:52:49 +0100
+
+kmag (4:4.12.2-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:33 +0200
+
+kmag (4:4.12.2-1) experimental; urgency=medium
+
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * New upstream release.
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:16 +0100
+
+kmag (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 05 Feb 2014 00:05:14 +0000
+
+kmag (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:21:28 +0000
+
+kmag (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:12:49 +0000
+
+kmag (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:13:38 +0000
+
+kmag (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:10:48 +0100
+
+kmag (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:43:29 +0100
+
+kmag (4:4.11.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 12:59:55 +0100
+
+kmag (4:4.11.2-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Oct 2013 15:34:30 +0200
+
+kmag (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:29:14 +0100
+
+kmag (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:25:47 +0100
+
+kmag (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:19:52 +0100
+
+kmag (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:39:53 +0100
+
+kmag (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:39 +0000
+
+kmag (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:17:16 +0100
+
+kmag (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 21 Jun 2013 01:23:47 +0100
+
+kmag (4:4.10.5-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 12 Jul 2013 15:40:09 +0200
+
+kmag (4:4.10.4-1) experimental; urgency=low
+
+  * New upstream release.
+  * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
+  * Update vcs fields.
+  * Add myself to uploaders.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 08:38:04 +0200
+
+kmag (4:4.10.4-0ubuntu1) saucy-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 07 Jun 2013 00:35:58 +0100
+
+kmag (4:4.10.3-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Merge with Debian, remaining change:
+   - build-dep on libqaccessibilityclient-dev
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 May 2013 16:55:11 +0000
+
+kmag (4:4.10.2-1) experimental; urgency=low
+
+  * New upstream.
+  * Bump build-deps.
+  * Update install-file.
+
+ -- Sune Vuorela <sune@debian.org>  Mon, 08 Apr 2013 19:54:43 +0000
+
+kmag (4:4.10.2-0ubuntu1) raring; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 31 Mar 2013 14:51:27 +0200
+
+kmag (4:4.10.1-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 05 Mar 2013 16:09:43 +0000
+
+kmag (4:4.10.0-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 06 Feb 2013 11:57:18 +0000
+
+kmag (4:4.9.98-0ubuntu1) raring-proposed; urgency=low
+
+  * Add build-dep on libqaccessibilityclient
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 18 Jan 2013 15:44:20 +0000
+
+kmag (4:4.9.97-0ubuntu1) raring; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 03 Jan 2013 22:37:49 +0100
+
+kmag (4:4.9.95-0ubuntu1) raring; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Dec 2012 23:33:15 +0000
+
+kmag (4:4.9.90-0ubuntu1) raring-proposed; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Dec 2012 17:58:29 +0000
+
+kmag (4:4.9.80-0ubuntu1) raring; urgency=low
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Nov 2012 15:59:55 +0000
+
+kmag (4:4.9.3-0ubuntu1) raring; urgency=low
+
+  * New upstream release (LP: #1074747)
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Tue, 06 Nov 2012 22:37:54 +0100
+
+kmag (4:4.9.2-0ubuntu1) quantal-proposed; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 02 Oct 2012 15:29:29 +0100
+
+kmag (4:4.9.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Harald Sitter <apachelogger@ubuntu.com>  Mon, 10 Sep 2012 18:34:23 +0530
+
+kmag (4:4.9.0-0ubuntu1) quantal; urgency=low
+
+  * Use direct build-depends versions rather than kde-sc-dev-latest
+  * New upstream release
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 26 Jul 2012 22:27:45 +0100
+
+kmag (4:4.8.90-0ubuntu1) quantal; urgency=low
+
+  * New upstream beta release.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Mon, 11 Jun 2012 23:32:03 +0200
+
+kmag (4:4.8.80-0ubuntu1) quantal; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 06 Jun 2012 16:33:13 +0100
+
+kmag (4:4.8.4-3) unstable; urgency=low
+
+  * The "I missed the epoch" release.
+  * Update debian/copyright:
+    - Correct doc license to GFDL-NIV-1.2+.
+    - Add a comment to the doc license to explain why some keywords appear and
+      how they are expanded later.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Thu, 21 Jun 2012 13:16:08 -0300
+
+kmag (4:4.8.3-0ubuntu1) quantal; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Fri, 18 May 2012 16:41:08 -0400
+
+kmag (4:4.8.2-0ubuntu2) precise-proposed; urgency=low
+
+  * Rebuild for .pot generation
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 12 Apr 2012 16:32:06 +0100
+
+kmag (4:4.8.2-0ubuntu1) precise; urgency=low
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 03 Apr 2012 08:51:57 +0000
+
+kmag (4:4.8.1-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 04 Mar 2012 21:27:12 +0100
+
+kmag (4:4.8.0-0ubuntu1) precise; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 20 Jan 2012 12:10:40 +0000
+
+kmag (4:4.7.97-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 05 Jan 2012 12:18:38 +0000
+
+kmag (4:4.7.95-0ubuntu1) precise; urgency=low
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sat, 24 Dec 2011 22:26:04 +0100
+
+kmag (4:4.7.90-0ubuntu1) precise; urgency=low
+
+  * Initial package
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 16 Dec 2011 14:14:53 +0000
+
+kmag (4.8.4-2) unstable; urgency=low
+
+  * Add Breaks and Replaces againts kdeaccessibility-dbg to kmag-dbg.
+  * Improve kmag-dbg's description.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Mon, 18 Jun 2012 13:10:24 -0300
+
+kmag (4.8.4-1) unstable; urgency=low
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Initial packaging, split from kdeaccesibility.
+  * Update Standards-Version to 3.9.3, no changes needed.
+  * Add a watch file.
+  * Add myself to Uploaders.
+  * Create a -dbg package.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Sun, 17 Jun 2012 19:07:03 -0300

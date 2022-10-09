@@ -1,0 +1,600 @@
+# translation of kmag.po to Persian
+# Zahra Farahmandi <farahmandi@itland.ir>, 2006.
+# MaryamSadat Razavi <razavi@itland.ir>, 2006.
+# Nazanin Kazemi <kazemi@itland.ir>, 2006, 2007.
+# Tahereh Dadkhahfar@itland.ir>, 2006.
+# Nasim Daniarzadeh <daniarzadeh@itland.ir>, 2006.
+# Tahereh Dadkhahfar <dadkhahfar@itland.ir>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmag\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-30 00:12+0000\n"
+"PO-Revision-Date: 2007-08-18 14:50+0330\n"
+"Last-Translator: Nazanin Kazemi <kazemi@itland.ir>\n"
+"Language-Team: Persian <kde-i18n-fa@kde.org>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "مریم سادات رضوی"
+
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "razavi@itland.ir"
+
+#: kmag.cpp:71
+#, kde-format
+msgctxt "Zoom at very low"
+msgid "&Very Low"
+msgstr "&خیلی کم‌"
+
+#: kmag.cpp:71
+#, kde-format
+msgctxt "Zoom at low"
+msgid "&Low"
+msgstr "&کم‌"
+
+#: kmag.cpp:71
+#, kde-format
+msgctxt "Zoom at medium"
+msgid "&Medium"
+msgstr "&متوسط‌"
+
+#: kmag.cpp:71
+#, kde-format
+msgctxt "Zoom at high"
+msgid "&High"
+msgstr "&زیاد‌"
+
+#: kmag.cpp:71
+#, kde-format
+msgctxt "Zoom at very high"
+msgid "V&ery High"
+msgstr "&خیلی زیاد‌"
+
+#: kmag.cpp:79
+#, kde-format
+msgctxt "No color-blindness simulation, i.e. 'normal' vision"
+msgid "&Normal"
+msgstr ""
+
+#: kmag.cpp:79
+#, kde-format
+msgid "&Protanopia"
+msgstr ""
+
+#: kmag.cpp:79
+#, kde-format
+msgid "&Deuteranopia"
+msgstr ""
+
+#: kmag.cpp:79
+#, kde-format
+msgid "&Tritanopia"
+msgstr ""
+
+#: kmag.cpp:79
+#, kde-format
+msgid "&Achromatopsia"
+msgstr ""
+
+#: kmag.cpp:87
+#, kde-format
+msgid "&No Rotation (0 Degrees)"
+msgstr "&بدون چرخش )۰ درجه(‌"
+
+#: kmag.cpp:87
+#, kde-format
+msgid "&Left (90 Degrees)"
+msgstr "&چپ )۹۰ درجه(‌"
+
+#: kmag.cpp:87
+#, kde-format
+msgid "&Upside Down (180 Degrees)"
+msgstr "&سر و ته )۱۸۰ درجه(‌"
+
+#: kmag.cpp:87
+#, kde-format
+msgid "&Right (270 Degrees)"
+msgstr "&راست )۲۷۰ درجه(‌"
+
+#: kmag.cpp:119
+#, kde-format
+msgid "New &Window"
+msgstr "&پنجره جدید‌"
+
+#: kmag.cpp:122
+#, kde-format
+msgid "Open a new KMagnifier window"
+msgstr "باز کردن پنجره درشت‌نمای KMagnifier جدید"
+
+#: kmag.cpp:126
+#, kde-format
+msgid "&Stop"
+msgstr "&ایست‌"
+
+#: kmag.cpp:129
+#, kde-format
+msgid "Click to stop window refresh"
+msgstr " فشار دهید تا بازآوری پنجره متوقف شود"
+
+#: kmag.cpp:130
+#, fuzzy, kde-format
+#| msgid ""
+#| "Clicking on this icon will <b>start</b> / <b>stop</b>  updating of the "
+#| "display. Stopping the update will zero the processing power  required "
+#| "(CPU usage)"
+msgid ""
+"Clicking on this icon will <b>start</b> / <b>stop</b> updating of the "
+"display. Stopping the update will zero the processing power required (CPU "
+"usage)"
+msgstr ""
+" با فشار این شمایل، به‌روزرسانی صفحه نمایش <b>  آغاز می‌شود</b> /  <b>می‌ایستد</"
+"b>. توقف به‌روزرسانی، پردازش توان مورد نیاز )کاربرد واحد پردازش مرکزی‌( را صفر "
+"می‌کند."
+
+#: kmag.cpp:136
+#, kde-format
+msgid "&Save Snapshot As..."
+msgstr " &ذخیره تصویر لحظه‌ای به عنوان...‌"
+
+#: kmag.cpp:139
+#, kde-format
+msgid "Saves the zoomed view to an image file."
+msgstr "نمای بزرگ‌نمایی‌شده را در پرونده تصویر ذخیره می‌کند."
+
+#: kmag.cpp:140
+#, kde-format
+msgid "Save image to a file"
+msgstr "ذخیره تصویر در پرونده"
+
+#: kmag.cpp:143
+#, kde-format
+msgid "Click on this button to print the current zoomed view."
+msgstr "این دکمه را فشار دهید تا نمای بزرگ‌نمایی‌شده جاری چاپ شود."
+
+#: kmag.cpp:146 kmag.cpp:147
+#, kde-format
+msgid "Quits the application"
+msgstr "از کاربرد خارج می‌شود"
+
+#: kmag.cpp:150
+#, kde-format
+msgid ""
+"Click on this button to copy the current zoomed view to the clipboard which "
+"you can paste in other applications."
+msgstr ""
+"این دکمه را فشار دهید، تا نمای بزرگ‌نمایی‌شده جاری در تخته یادداشت که می‌توانید "
+"در کاربردهای دیگر بچسبانید، رونوشت شود."
+
+#: kmag.cpp:151
+#, kde-format
+msgid "Copy zoomed image to clipboard"
+msgstr "رونوشت تصویر بزرگ‌نمایی‌شده در تخته یادداشت"
+
+#: kmag.cpp:157
+#, kde-format
+msgid "&Follow Mouse Mode"
+msgstr "&دنبال کردن حالت موشی‌"
+
+#: kmag.cpp:161
+#, kde-format
+msgid "Mouse"
+msgstr ""
+
+#: kmag.cpp:162
+#, kde-format
+msgid "Magnify around the mouse cursor"
+msgstr "درشت‌نمایی اطراف مکان‌نمای موشی"
+
+#: kmag.cpp:163
+#, kde-format
+msgid "If selected, the area around the mouse cursor is magnified"
+msgstr "در صورت گزینش، ناحیه اطراف مکان‌نمای موشی درشت می‌شود."
+
+#: kmag.cpp:167
+#, fuzzy, kde-format
+#| msgid "&Follow Mouse Mode"
+msgid "&Follow Focus Mode"
+msgstr "&دنبال کردن حالت موشی‌"
+
+#: kmag.cpp:171
+#, kde-format
+msgid "Focus"
+msgstr ""
+
+#: kmag.cpp:172
+#, fuzzy, kde-format
+#| msgid "Magnify around the mouse cursor"
+msgid "Magnify around the keyboard focus"
+msgstr "درشت‌نمایی اطراف مکان‌نمای موشی"
+
+#: kmag.cpp:173
+#, fuzzy, kde-format
+#| msgid "If selected, the area around the mouse cursor is magnified"
+msgid "If selected, the area around the keyboard cursor is magnified"
+msgstr "در صورت گزینش، ناحیه اطراف مکان‌نمای موشی درشت می‌شود."
+
+#: kmag.cpp:177
+#, kde-format
+msgid "Se&lection Window Mode"
+msgstr "حالت &گزینش پنجره‌"
+
+#: kmag.cpp:181
+#, fuzzy, kde-format
+#| msgid "New &Window"
+msgid "Window"
+msgstr "&پنجره جدید‌"
+
+#: kmag.cpp:182
+#, kde-format
+msgid "Show a window for selecting the magnified area"
+msgstr "نمایش پنجره‌ای برای گزینش ناحیه درشت‌شده"
+
+#: kmag.cpp:184
+#, kde-format
+msgid "&Whole Screen Mode"
+msgstr "حالت &تمام‌پرده‌"
+
+#: kmag.cpp:188
+#, kde-format
+msgid "Screen"
+msgstr ""
+
+#: kmag.cpp:189
+#, kde-format
+msgid "Magnify the whole screen"
+msgstr "درشت‌نمایی تمام‌پرده"
+
+#: kmag.cpp:190
+#, kde-format
+msgid "Click on this button to fit the zoom view to the zoom window."
+msgstr ""
+"این دکمه را فشار دهید تا نمای بزرگ‌نمایی‌شده جاری با پنجره بزرگ‌نمایی‌شده متناسب "
+"شود."
+
+#: kmag.cpp:192
+#, kde-format
+msgid "Hide Mouse &Cursor"
+msgstr "مخفی کردن &مکان‌نمای موشی‌"
+
+#: kmag.cpp:197
+#, kde-format
+msgid "Show Mouse &Cursor"
+msgstr "نمایش &مکان‌نمای موشی‌"
+
+#: kmag.cpp:199
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#: kmag.cpp:200
+#, kde-format
+msgid "Hide the mouse cursor"
+msgstr "مخفی کردن مکان‌نمای موشی"
+
+#: kmag.cpp:202
+#, kde-format
+msgid "Stays On Top"
+msgstr ""
+
+#: kmag.cpp:206
+#, kde-format
+msgid "The KMagnifier Window stays on top of other windows."
+msgstr ""
+
+#: kmag.cpp:209
+#, kde-format
+msgid "Click on this button to <b>zoom-in</b> on the selected region."
+msgstr " این دکمه را فشار دهید، تا در منطقه برگزیده <b>بزرگ‌نمایی </b> شود."
+
+#: kmag.cpp:211
+#, kde-format
+msgid "&Zoom"
+msgstr "&بزرگ‌نمایی‌"
+
+#: kmag.cpp:214
+#, kde-format
+msgid "Select the zoom factor."
+msgstr "برگزیدن عامل بزرگ‌نمایی."
+
+#: kmag.cpp:215
+#, kde-format
+msgid "Zoom factor"
+msgstr "عامل بزرگ‌نمایی"
+
+#: kmag.cpp:218
+#, kde-format
+msgid "Click on this button to <b>zoom-out</b> on the selected region."
+msgstr ""
+"این دکمه را فشار دهید، تا روی منطقه برگزیده، <b>کوچک‌نمایی</b> انجام شود."
+
+#: kmag.cpp:220
+#, kde-format
+msgid "&Rotation"
+msgstr "&چرخش‌"
+
+#: kmag.cpp:223
+#, kde-format
+msgid "Select the rotation degree."
+msgstr "گزینش درجه چرخش."
+
+#: kmag.cpp:224
+#, kde-format
+msgid "Rotation degree"
+msgstr "درجه چرخش"
+
+#: kmag.cpp:229
+#, kde-format
+msgid "&Refresh"
+msgstr "&بازآوردن‌"
+
+#: kmag.cpp:232
+#, kde-format
+msgid ""
+"Select the refresh rate. The higher the rate, the more computing power (CPU) "
+"will be needed."
+msgstr ""
+"سرعت بازآوری را برگزینید. هر چه این سرعت بیشتر باشد، توان محاسبه )واحد "
+"پردازش مرکزی( بیشتری مورد نیاز است."
+
+#: kmag.cpp:233
+#, kde-format
+msgid "Refresh rate"
+msgstr "سرعت بازآوری"
+
+#: kmag.cpp:235
+#, kde-format
+msgctxt "Color-blindness simulation mode"
+msgid "&Color"
+msgstr ""
+
+#: kmag.cpp:238
+#, kde-format
+msgid "Select a mode to simulate various types of color-blindness."
+msgstr ""
+
+#: kmag.cpp:239
+#, kde-format
+msgid "Color-blindness Simulation Mode"
+msgstr ""
+
+#: kmag.cpp:571
+#, kde-format
+msgid "Save Snapshot As"
+msgstr "ذخیره تصویر لحظه‌ای به عنوان..."
+
+#: kmag.cpp:585
+#, kde-format
+msgid ""
+"Unable to save temporary file (before uploading to the network file you "
+"specified)."
+msgstr ""
+" قادر به ذخیره پرونده موقت )پیش از بارگذاری در پرونده شبکه‌ای که مشخص "
+"کردید( نیست."
+
+#: kmag.cpp:586 kmag.cpp:591 kmag.cpp:601
+#, kde-format
+msgid "Error Writing File"
+msgstr "خطای نوشتن پرونده"
+
+#: kmag.cpp:590
+#, kde-format
+msgid "Unable to upload file over the network."
+msgstr "قادر به بارگذاری پرونده بر روی شبکه نیست."
+
+#: kmag.cpp:593 kmag.cpp:603
+#, kde-format
+msgid ""
+"Current zoomed image saved to\n"
+"%1"
+msgstr ""
+"تصویر بزرگ‌نمایی‌شده جاری ذخیره‌شده در \n"
+"%1"
+
+#: kmag.cpp:594 kmag.cpp:604
+#, kde-format
+msgid "Information"
+msgstr "اطلاعات"
+
+#: kmag.cpp:600
+#, kde-format
+msgid ""
+"Unable to save file. Please check if you have permission to write to the "
+"directory."
+msgstr ""
+"قادر به ذخیره پرونده نیست. لطفاً، بررسی کنید که آیا مجوز نوشتن در فهرست "
+"راهنما را دارید."
+
+#: kmag.cpp:619
+#, kde-format
+msgid "Stop"
+msgstr "ایست‌"
+
+#: kmag.cpp:620
+#, kde-format
+msgid "Click to stop window update"
+msgstr "فشار دهید تا به‌روزرسانی پنجره متوقف شود"
+
+#: kmag.cpp:623
+#, fuzzy, kde-format
+#| msgid "Start"
+msgctxt "Start updating the window"
+msgid "Start"
+msgstr "آغاز"
+
+#: kmag.cpp:624
+#, kde-format
+msgid "Click to start window update"
+msgstr " فشار دهید تا به‌روزرسانی پنجره آغاز شود"
+
+#: kmagselrect.cpp:214
+#, kde-format
+msgid "Selection Window"
+msgstr "پنجره گزینش"
+
+#: kmagselrect.cpp:214 main.cpp:45
+#, kde-format
+msgid "KMagnifier"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#: kmagui.rc:3
+#, fuzzy, kde-format
+#| msgid "Show Main &Toolbar"
+msgid "Main Toolbar"
+msgstr "نمایش &میله ابزار اصلی‌"
+
+#. i18n: ectx: ToolBar (viewToolBar)
+#: kmagui.rc:6
+#, fuzzy, kde-format
+#| msgid "Show &View Toolbar"
+msgid "View Toolbar"
+msgstr "نمایش میله ابزار &نما‌"
+
+#. i18n: ectx: ToolBar (settingsToolBar)
+#: kmagui.rc:16
+#, fuzzy, kde-format
+#| msgid "Show &Settings Toolbar"
+msgid "Settings Toolbar"
+msgstr "نمایش میله ابزار &تنظیمات‌"
+
+#. i18n: ectx: Menu (file)
+#: kmagui.rc:25
+#, kde-format
+msgid "&File"
+msgstr "&پرونده‌"
+
+#. i18n: ectx: Menu (edit)
+#: kmagui.rc:32
+#, kde-format
+msgid "&Edit"
+msgstr "&ویرایش‌"
+
+#. i18n: ectx: Menu (view)
+#: kmagui.rc:35 kmagui.rc:73
+#, kde-format
+msgid "&View"
+msgstr "&نما‌"
+
+#. i18n: ectx: Menu (settings)
+#: kmagui.rc:47 kmagui.rc:83
+#, kde-format
+msgid "&Settings"
+msgstr "&تنظیمات‌"
+
+#: kmagzoomview.cpp:126
+#, kde-format
+msgid ""
+"This is the main window which shows the contents of the selected region. The "
+"contents will be magnified according to the zoom level that is set."
+msgstr ""
+"این پنجره اصلی است که محتوای منطقه برگزیده را نشان می‌دهد. محتوا طبق سطح "
+"بزرگ‌نمایی که تنظیم شده، درشت می‌شود."
+
+#: main.cpp:46
+#, fuzzy, kde-format
+#| msgid "Screen magnifier for the K Desktop Environment (KDE)"
+msgid "Screen magnifier created by KDE"
+msgstr "درشت‌نمایی پرده برای محیط رومیزی )KDE("
+
+#: main.cpp:48
+#, kde-format
+msgid ""
+"Copyright 2001-2003 Sarang Lakare\n"
+"Copyright 2003-2004 Olaf Schmidt\n"
+"Copyright 2008 Matthew Woehlke"
+msgstr ""
+
+#: main.cpp:52
+#, kde-format
+msgid "Sarang Lakare"
+msgstr ""
+
+#: main.cpp:53
+#, kde-format
+msgid "Rewrite"
+msgstr ""
+
+#: main.cpp:54
+#, kde-format
+msgid "Michael Forster"
+msgstr ""
+
+#: main.cpp:55
+#, kde-format
+msgid "Original idea and author (KDE1)"
+msgstr " نویسنده و ایده اصلی )KDE1("
+
+#: main.cpp:56
+#, kde-format
+msgid "Olaf Schmidt"
+msgstr ""
+
+#: main.cpp:56
+#, kde-format
+msgid ""
+"Rework of the user interface, improved selection window, speed optimization, "
+"rotation, bug fixes"
+msgstr ""
+"کار مجدد واسط کاربر‍‍، پنجره گزینش بهبودیافته، بهینه‌سازی سرعت، چرخش، رفع "
+"اشکالها"
+
+#: main.cpp:57
+#, kde-format
+msgid "Matthew Woehlke"
+msgstr ""
+
+#: main.cpp:57
+#, kde-format
+msgid "Color-blindness simulation"
+msgstr ""
+
+#: main.cpp:58
+#, kde-format
+msgid "Sebastian Sauer"
+msgstr ""
+
+#: main.cpp:58
+#, kde-format
+msgid "Focus tracking"
+msgstr ""
+
+#: main.cpp:59
+#, kde-format
+msgid "Claudiu Costin"
+msgstr ""
+
+#: main.cpp:59
+#, kde-format
+msgid "Some tips"
+msgstr "برخی نکات"
+
+#~ msgid "File to open"
+#~ msgstr "باز کردن پرونده"
+
+#~ msgid "Show &Menu"
+#~ msgstr "نمایش &گزینگان‌"
+
+#~ msgid "Hide &Menu"
+#~ msgstr "مخفی کردن &گزینگان‌"
+
+#~ msgid "Hide Main &Toolbar"
+#~ msgstr "مخفی کردن &میله ابزار اصلی‌"
+
+#~ msgid "Hide &View Toolbar"
+#~ msgstr "مخفی کردن میله ابزار &نما‌"
+
+#~ msgid "Hide &Settings Toolbar"
+#~ msgstr "مخفی کردن میله ابزار&تنظیمات‌"
+
+#~ msgid "Rewrite and current maintainer"
+#~ msgstr "بازنویسی و نگه‌دارنده جاری"

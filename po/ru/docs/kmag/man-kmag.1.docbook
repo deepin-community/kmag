@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<!DOCTYPE refentry PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+<!ENTITY % Russian "INCLUDE">
+]>
+
+<refentry lang="&language;">
+<refentryinfo>
+<title
+>Справочная система &kde;</title>
+<author
+>&Lauri.Watts; &Lauri.Watts.mail;</author>
+<date
+>6 октября 2010 г.</date>
+<productname
+>KDE</productname>
+</refentryinfo>
+
+<refmeta>
+<refentrytitle
+><command
+>kmag</command
+></refentrytitle>
+<manvolnum
+>1</manvolnum>
+</refmeta>
+
+<refnamediv>
+<refname
+><command
+>kmag</command
+></refname>
+<refpurpose
+>Экранный увеличитель</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv>
+<cmdsynopsis
+><command
+>kmag</command
+> <arg choice="opt"
+>ключи &kde;</arg
+> <arg choice="opt"
+>ключи &Qt;</arg
+> </cmdsynopsis>
+</refsynopsisdiv>
+
+<refsect1>
+<title
+>ОПИСАНИЕ</title>
+<para
+><command
+>kmag</command
+> — это экранная лупа. Вы можете использовать KMag для увеличения части экрана так же, как используете линзу для того, чтобы прочесть мелкий текст или рассмотреть фотографию. Эта программа может быть полезна различным людям: разработчикам, художникам, веб-дизайнерам или людям с ослабленным зрением.</para>
+</refsect1>
+
+<refsect1>
+<title
+>СМ. ТАКЖЕ</title>
+
+<para
+>Более подробная справка доступна по адресу <ulink url="help:/kmag"
+>help:/kmag</ulink
+> (введите этот &URL; в &konqueror;, или запустите <userinput
+><command
+>khelpcenter</command
+> <parameter
+>help:/kmag</parameter
+></userinput
+>).</para>
+
+<para
+>Также посетите сайт <ulink url="http://accessibility.kde.org/"
+>проекта &kde; Accessibility</ulink
+>.</para>
+</refsect1>
+
+<refsect1>
+<title
+>АВТОРЫ</title>
+<para
+>&kmagnifier; написан <personname
+><firstname
+>Olaf</firstname
+><surname
+>Schmidt</surname
+></personname
+> <email
+>ojschmidt@kde.org</email
+>, <personname
+><firstname
+>Sarang</firstname
+><surname
+>Lakare</surname
+></personname
+> <email
+>sarang@users.sf.net</email
+> и <personname
+><firstname
+>Michael</firstname
+><surname
+>Forster</surname
+></personname
+> <email
+>forster@fmi.uni-passau.de</email
+></para>
+</refsect1>
+
+</refentry>

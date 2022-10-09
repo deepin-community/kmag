@@ -1,0 +1,38 @@
+Source: kmag
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5kio-dev (>= 5.83.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               libqaccessibilityclient-qt5-dev (>= 0.4~),
+               pkg-kde-tools (>= 0.12),
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://apps.kde.org/en/kmag
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kmag
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kmag.git
+
+Package: kmag
+Architecture: any
+Section: utils
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: screen magnifier tool
+ KDE's screen magnifier tool.
+ .
+ You can use KMagnifier to magnify a part of the screen just as you would use
+ a lens to magnify a newspaper fine-print or a photograph.  This application is
+ useful for a variety of people: from researchers to artists to web-designers to
+ people with low vision.
+ .
+ This package is part of the KDE accessibility module.
